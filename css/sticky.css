@@ -71,7 +71,12 @@ span.logo{
 /* configuração footer */
 footer img.logo{
   float: none;
+  width: 10rem;
 }
+footer span.logo{
+  font-size: 20px;
+}
+
 footer ul li a, footer ul li a:hover{
   text-decoration: none;
   line-height: 33px;

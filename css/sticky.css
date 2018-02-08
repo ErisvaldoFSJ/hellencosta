@@ -7,6 +7,7 @@
   body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
+    font-family: 'Raleway', sans-serif;
   }
   .footer {
     position: absolute;
@@ -47,6 +48,7 @@ span.logo{
   margin-top: 15px;
   margin-left: 10px;
   display: inline-block;
+  color: black;
 }
 .navbar-default{
   background-color: white;
@@ -63,6 +65,19 @@ span.logo{
   background-color: white;
 }
 
+
+/* media query for tablets */
+@media(min-width: 768px) and (max-width: 992px){
+ .navbar-nav>li>a {
+    padding-top: 19px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+  }
+  span.logo {
+    font-size: 18px;
+    margin-left: 3px;
+  }
+}
 
 
 

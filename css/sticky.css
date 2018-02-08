@@ -43,9 +43,10 @@ img.logo{
   width: 5.75rem;
   float: left;
 }
-.spanlogo{
-  margin-top: 100px;
-  float: left;
+span.logo{
+  margin-top: 15px;
+  margin-left: 10px;
+  display: inline-block;
 }
 .navbar-default{
   background-color: white;

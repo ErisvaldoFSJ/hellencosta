@@ -39,6 +39,41 @@
   }
 
 /* aqui começa o estilo modificado */
-.logo{
+img.logo{
   width: 5.75rem;
+  float: left;
 }
+.spanlogo{
+  margin-top: 100px;
+  float: left;
+}
+.navbar-default{
+  background-color: white;
+  height: 6.95rem;
+}
+.navbar-default .navbar-nav{
+  margin-top: 10px;
+  float: right;
+}
+.navbar-header .navbar-toggle{
+  margin-top: 15px;
+}
+.navbar-default .navbar-nav a{
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

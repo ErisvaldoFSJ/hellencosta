@@ -50,6 +50,7 @@ span.logo{
   display: inline-block;
   color: black;
 }
+/* configuração navbar */
 .navbar-default{
   background-color: white;
   height: 6.95rem;
@@ -65,13 +66,26 @@ span.logo{
   background-color: white;
 }
 
+/* configuração footer */
+footer img.logo{
+  float: none;
+}
+footer ul li a, footer ul li a:hover{
+  text-decoration: none;
+  line-height: 33px;
+  color: black;
+}
+footer ul li{
+  list-style: none;
+}
 
 /* media query for tablets */
 @media(min-width: 768px) and (max-width: 992px){
  .navbar-nav>li>a {
-    padding-top: 19px;
-    padding-bottom: 15px;
+    padding-top: 20px;
     padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 13px;
   }
   span.logo {
     font-size: 18px;

@@ -78,22 +78,15 @@ span.logo{
 }
 
 /*configuração container pagina contato */
-.contato_destaque p{
-  font-size: 36px;
+.contato_h3{
+  font-size:30px;
 }
-.contato_destaque h3{
-  color: rgb(84,84,84);
-  font-weight: bold;
-}
-.contato_horario, .contato_horario h3, .contato_horario p{
-  font-size: 24px;
-}
-.contato_horario h3{
-  font-weight: bold;
-  color: black;
-}
-.contato_horario p{
+.contato_p{
+  font-size: 30px;
   color: rgb(120,120,120);
+}
+.contato_horario_h3{
+  font-weight: bold;
 }
 
 /* configuração footer */
@@ -181,7 +174,13 @@ footer ul li{
   body > .container {
     padding-bottom: 550px;
   }
+  .contato_p{
+    font-size: 25px;
+  }
 }
+
+
+
 /* media query for celulares e smart phones */
 @media(min-width: 360px) and (max-width: 767px){
   .footer{
@@ -189,6 +188,18 @@ footer ul li{
   }
   body > .container {
     padding-bottom: 500px;
+  }
+  .contato_p{
+    font-size: 15px;
+  }
+  .contato_h3{
+    font-size: 10px;
+    font-weight: bold;
+  }
+  h1{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px;
   }
 }
 

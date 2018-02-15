@@ -106,7 +106,7 @@ span.logo{
   background-color: #f5f6fa;
   border: 1px solid rgb(220,220,220);
   color: black;
-  
+
 }
 .form_contato input[type=text], 
 .form_contato input[type=email]{
@@ -121,6 +121,12 @@ span.logo{
   padding: 20px 36px;
   margin-top: 10px;
   color: black;
+}
+
+/* configuração pagina parceiros */
+.images_parceiros{
+  width: 80%;
+  padding: 10px;
 }
 
 /* configuração footer */

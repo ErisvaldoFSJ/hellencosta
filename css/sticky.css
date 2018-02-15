@@ -67,6 +67,10 @@ span.logo{
 .navbar-default .navbar-nav a{
   background-color: white;
 }
+/*configuração container pagina sobre nós */
+.sobre_nos{
+ margin-top: 70px;
+}
 
 /* configuração footer */
 

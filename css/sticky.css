@@ -89,6 +89,40 @@ span.logo{
   font-weight: bold;
 }
 
+.form_contato{
+  font-size: 24px;
+  margin-top: 100px;
+}
+.form_contato textarea{
+  width: 100%;
+  height: 250px;
+  margin-top: 20px;
+}
+
+.form_contato textarea, 
+.form_contato input[type=text], 
+.form_contato input[type=email]{
+  padding: 20px;
+  background-color: #f5f6fa;
+  border: 1px solid rgb(220,220,220);
+  color: black;
+  
+}
+.form_contato input[type=text], 
+.form_contato input[type=email]{
+  width: 32%;
+  margin-left: 7.2px;
+}
+
+.form_contato input[type=submit]{
+  color: white;
+  background-color: #ffb142;
+  border: none;
+  padding: 20px 36px;
+  margin-top: 10px;
+  color: black;
+}
+
 /* configuração footer */
 
 footer img.logo{
@@ -156,6 +190,8 @@ footer ul li{
   text-decoration: none;
 }
 
+
+
 /* media query for tablets */
 @media(min-width: 768px) and (max-width: 992px){
  .navbar-nav>li>a {
@@ -176,6 +212,10 @@ footer ul li{
   }
   .contato_p{
     font-size: 25px;
+  }
+  .form_contato input[type=text], 
+  .form_contato input[type=email]{
+    margin-left: 5px;
   }
 }
 
@@ -200,6 +240,11 @@ footer ul li{
     font-size: 20px;
     text-align: left;
     margin-left: 10px;
+  }
+  .form_contato input[type=text], 
+  .form_contato input[type=email]{
+    width: 97%;
+    margin-top: 5px;    
   }
 }
 

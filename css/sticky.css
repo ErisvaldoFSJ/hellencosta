@@ -115,16 +115,17 @@ footer ul li{
     margin-top: 30px;
 }
 .img_home{
-  margin-top: 26px;
   background-image: url("../img/bg_home.jpg");
   background-position: center;
-  height: 600px;
+  width: 100%;
   margin-top: 70px;
+
 }
 .text_home{
   background-color: white;
   font-size: 48px;
   margin-top: 200px;
+  margin-bottom: 100px;
   padding: 30px;
   max-width: 550px;
   opacity: 0.5;

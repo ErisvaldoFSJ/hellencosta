@@ -36,6 +36,11 @@
     padding-right: 15px;
     padding-left: 15px;
   }
+  h1{
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+  }
 
   code {
     font-size: 80%;
@@ -70,6 +75,25 @@ span.logo{
 /*configuração container pagina sobre nós */
 .sobre_nos{
  margin-top: 70px;
+}
+
+/*configuração container pagina contato */
+.contato_destaque p{
+  font-size: 36px;
+}
+.contato_destaque h3{
+  color: rgb(84,84,84);
+  font-weight: bold;
+}
+.contato_horario, .contato_horario h3, .contato_horario p{
+  font-size: 24px;
+}
+.contato_horario h3{
+  font-weight: bold;
+  color: black;
+}
+.contato_horario p{
+  color: rgb(120,120,120);
 }
 
 /* configuração footer */
